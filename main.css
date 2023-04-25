@@ -1,0 +1,238 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    place-items: center;
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+header {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: #e27760;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+p {
+    font-size: 20px;
+    color: #e27760;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+}
+.p1 {
+    font-size: 20px;
+    color: #e27760;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 50px;
+    text-indent: 30px;
+}
+.pe {
+    font-size: 20px;
+    color: #9be6ca;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 50px;
+    text-indent: 30px;
+}
+article {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #e27760;
+    display: grid;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+section {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #9be6ca;
+    display: grid;
+    align-items: center;
+    margin-top: 45px;
+    text-decoration-line: underline;
+}
+.sectionmiddle {
+    font-size: 65px;
+    color: #9be6ca;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    margin-top: 100px;
+}
+footer {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #9be6ca;
+    background-color: #e27760;
+    display: grid;
+    place-items: center;
+    margin-top: 300px;
+    width: 100%;
+}
+body {
+    background-color: #07272d;
+
+}
+.button {
+display: block;
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: #3498DB;
+color: #FFFFFF;
+font-size: 16.7px;
+cursor: pointer;
+border: 3px solid #e27760;
+margin-top: 30px;
+transition-duration: 0.4s;
+border-radius: 7px;
+font-family: 'Oswald', sans-serif;
+background-color: transparent;
+color: #9be6ca;
+box-shadow: 2px 3px #9be6ca;
+margin-left: 50px;
+}
+button:hover {
+    color: #e27760;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.nav-links li {
+    flex: 1;
+margin: 0 5px;
+}
+.nav-links {
+display: flex;
+justify-content: space-between;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+nav {
+    padding: 10px;
+}
+.fa {
+    padding: 6px;
+    text-align: center;
+    margin-top: 3px;
+    width: 70px;
+}
+.fa:hover {
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4) 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.fa-facebook {
+    color: #4267B2;
+}
+.fa-instagram {
+    color: #E1306C;
+}
+.fa-twitter {
+    color: #1DA1F2;
+}
+.fa-linkedin {
+    color: #0072b1;
+}
+.container {
+        display: inline-block;
+        margin: 10px;
+        vertical-align: top;
+        width: 45%;
+        max-width: 700px;
+    }
+    .container img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        margin-bottom: 100px;
+    }
+    .container p {
+        text-align: center;
+        margin-bottom: 100px;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+        color: #e27760;
+    }
+.center-align-list {
+    align-items: center;
+}
+.h3-center {
+    text-align: center;
+}
+ol.d {
+    display: grid;
+}
+.ptitle {
+    font-size: 40px;
+    color: #e27760;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.ptitle2 {
+    font-size: 40px;
+    color: #e27760;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: -30px;
+}
+th {
+    color: #9be6ca;
+}
+td {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.articleskills {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #e27760;
+    display: grid;
+    align-items: center;
+    margin-top: 75px;
+    
+}
+.imghome {
+    width: 50%;
+    height: auto;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top: 60px;
+    }
+.pcaptions {
+    color: #9be6ca;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.imgexperience {
+    width: 50%;
+    height: auto;
+}
+.fade-in {
+    opacity: 0; /* start with opacity of 0 */
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
